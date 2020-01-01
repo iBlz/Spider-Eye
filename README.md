@@ -1,2 +1,5 @@
 # Omega-DDos-Tool
-Simple DDos Tool !!!
+-------------------
+This DDos Tool only works on linux.
+-------------------
+
