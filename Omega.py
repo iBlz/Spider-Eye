@@ -47,7 +47,7 @@ def down_it(item):
 				print("\033[92mWebsite Shutdowned!!!\033[92m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("/033[91mError/033[91m")
+		print("\033[92mError\033[92m")
 		time.sleep(.1)
 
 
