@@ -40,6 +40,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "\033[31m|Packets: %s |Ip: %s | port: %s |\033[31m"%(sent,ip,port)
+     print "|Packets: %s |Ip: %s | port: %s |"%(sent,ip,port)
      if port == 65534:
        port = 1
