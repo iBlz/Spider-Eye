@@ -31,7 +31,7 @@ ____________________________________________________
 Screenshots
 <br>
 <p align="center">
-<img width="50%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_20200119-122016_Termux.jpg"/>
+<img width="48%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_20200119-122016_Termux.jpg"/>
 <img width="50%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_1.png"/>
 </p>
 <br>
