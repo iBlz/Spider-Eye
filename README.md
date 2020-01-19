@@ -11,7 +11,7 @@ git clone https://github.com/ToxicOmaga/Omega-DDos-Tool
 
 cd Omega-DDos-Tool
 
-python3 Omega.py
+python Omega.py
 
 ____________________________________________________
 
