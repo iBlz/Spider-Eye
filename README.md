@@ -29,5 +29,10 @@ python2 Omega.py
 
 ____________________________________________________
 Screenshots
+<br>
+<p align="center">
+<img width="100%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_20200119-122016_Termux.jpg"/>
+</p>
+<br>
 
 
