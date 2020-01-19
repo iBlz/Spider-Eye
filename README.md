@@ -28,6 +28,6 @@ cd Omega-DDos-Tool
 python2 Omega.py
 
 ____________________________________________________
-ScreenShots
+Screenshots
 
 
