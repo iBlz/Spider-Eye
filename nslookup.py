@@ -1,4 +1,4 @@
 import os
 
-os.system("apt install update && apt install upgrade && pkg install dnsutils")
+os.system("apt update && apt upgrade && pkg install dnsutils")
 print(" Nslookup Installed!")
