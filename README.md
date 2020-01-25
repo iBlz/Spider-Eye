@@ -1,17 +1,17 @@
-# Omega-DDos-Tool
+# Spider-Eye Is Simple Wi-Fi Crasher!
 ____________________________________________________
-This DDoS Tool Works on Termux/Linux Only!
+This Tool Works on Termux/Linux Only!
 ____________________________________________________
 
 ---How To Install On Linux---
 
 cd Desktop
 
-git clone https://github.com/ToxicOmaga/Omega-DDos-Tool
+git clone https://github.com/ToxicOmaga/Spider-Eye
 
-cd Omega-DDos-Tool
+cd Spider-Eye
 
-python Omega.py
+python Spider-Eye.py
 
 ____________________________________________________
 
@@ -21,17 +21,17 @@ pkg install git
 
 pkg install python2
 
-git clone https://github.com/ToxicOmaga/Omega-DDos-Tool
+git clone https://github.com/ToxicOmaga/Spider-Eye
 
-cd Omega-DDos-Tool
+cd Spider-Eye
 
-python2 Omega.py
+python2 Spider-Eye
 
 ____________________________________________________
 Screenshots
 <br>
 <p align="center">
-<img width="48%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_20200119-122016_Termux.jpg"/>
-<img width="50%" src="https://github.com/Toxic-Omega/Omega-DDos-Tool/blob/master/Screenshot/Screenshot_1.png"/>
+<img width="48%" src=""/>
+<img width="50%" src=""/>
 </p>
 <br>
