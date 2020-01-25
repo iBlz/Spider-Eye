@@ -31,7 +31,7 @@ ____________________________________________________
 Screenshots
 <br>
 <p align="center">
-<img width="48%" src=""/>
-<img width="50%" src=""/>
+<img width="48%" src="https://github.com/Toxic-Omega/Spider-Eye/blob/master/Screenshot/Screenshot_1.png"/>
+<img width="50%" src="https://github.com/Toxic-Omega/Spider-Eye/blob/master/Screenshot/Screenshot_2.png"/>
 </p>
 <br>
